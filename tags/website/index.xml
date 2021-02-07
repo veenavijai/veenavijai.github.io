@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on </title>
-    <link>https://veenavijai.com/blog/</link>
-    <description>Recent content in Blog on </description>
+    <title>website on </title>
+    <link>https://veenavijai.com/tags/website/</link>
+    <description>Recent content in website on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://veenavijai.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Amazon Lab126</title>
-      <link>https://veenavijai.com/blog/amazon_lab126/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://veenavijai.com/blog/amazon_lab126/</guid>
-      <description>A
-B
-C</description>
-    </item>
-    
-    <item>
-      <title>Habit Creation: From Ideas to Experiments</title>
-      <link>https://veenavijai.com/blog/habits/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://veenavijai.com/blog/habits/</guid>
-      <description>In July 2019, I finally got my hands on James Clear’s Atomic Habits, a book around which there has been much furore. I was excited to read it, yet had a vague premonition that I would absorb the content quickly and forget it just as quickly, as with so many books I’ve read before (think Malcolm Gladwell). I sat comfortably in the library lawns outside Doheny Library at USC on a warm afternoon day and started off.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://veenavijai.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build this Website</title>
       <link>https://veenavijai.com/blog/website/</link>
