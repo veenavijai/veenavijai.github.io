@@ -6,7 +6,7 @@
     <description>Recent content in Veena Vijai on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://veenavijai.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://veenavijai.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resume</title>
       <link>https://veenavijai.com/resume/</link>
@@ -24,6 +24,26 @@
       <guid>https://veenavijai.com/contact/</guid>
       <description>Please fill out this form to directly get in touch over email!
 Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
+    <item>
+      <title>Habit Creation: From Ideas to Action</title>
+      <link>https://veenavijai.com/blog/habits/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://veenavijai.com/blog/habits/</guid>
+      <description>In July 2019, I finally got my hands on James Clear’s Atomic Habits, a book around which there has been much furore. I had a vague premonition, or rather, a sense of resignation, that I would forget the content just as quickly as I had absorbed it, as has been the case with many books I’ve read before (think Malcolm Gladwell). I sat comfortably on the library lawns outside the Doheny Library at USC on a warm afternoon and started off.</description>
+    </item>
+    
+    <item>
+      <title>How to Build this Website</title>
+      <link>https://veenavijai.com/blog/website/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://veenavijai.com/blog/website/</guid>
+      <description>There are many options out there to build and host a website with a custom domain. The steps listed below are how I created this website by building with Hugo and hosting on Github pages with a custom domain from Google.
+Instructions   Install Go. Follow the instructions on the page to unpack, export to PATH, and check the go version to ensure it&amp;rsquo;s been installed correctly.
+  Install Hugo.</description>
     </item>
     
     <item>
@@ -55,24 +75,6 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
       <guid>https://veenavijai.com/work/cornell-lab-of-ornithology/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
-      <title>Habit Creation: From Ideas to Experiments</title>
-      <link>https://veenavijai.com/blog/habits/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://veenavijai.com/blog/habits/</guid>
-      <description>In July 2019, I finally got my hands on James Clear’s Atomic Habits, a book around which there has been much furore. I was excited to read it, yet had a vague premonition that I would absorb the content quickly and forget it just as quickly, as with so many books I’ve read before (think Malcolm Gladwell). I sat comfortably in the library lawns outside Doheny Library at USC on a warm afternoon day and started off.</description>
-    </item>
-    
-    <item>
-      <title>How to Build this Website</title>
-      <link>https://veenavijai.com/blog/website/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://veenavijai.com/blog/website/</guid>
-      <description>Install Go: golang.org/doc/install, unpack, export to PATH, and check go version Install Hugo: https://gohugo.io/getting-started/installing/#source Export all required paths to PATH by export PATH=$PATH:&amp;lt;new_path&amp;gt;, /snap/bin, /snap/bin/hugo, /usr/local/go_install/go/bin Choose a theme from https://themes.gohugo.io/, check tags to filter by requirements Buy a domain from Google: https://domains.google/ Follow instructions on Hugo quickstart page: https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site Copy config.toml from exampleSite (example site under themes -&amp;gt; ananke -&amp;gt; exampleSite) to quickstart  Copy the contents of the entire layouts folder from exampleSite to quickstart Add sections manually by creating new folders (with exampleSite as reference).</description>
     </item>
     
     <item>

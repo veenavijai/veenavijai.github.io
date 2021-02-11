@@ -19,6 +19,8 @@
     
 
     
+      <link rel="stylesheet" href="/css/custom1.css">
+    
 
     
       
@@ -31,13 +33,13 @@
 <meta property="og:description" content="How to create a personal website by building with Hugo and hosting on Github pages with a custom domain" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://veenavijai.com/blog/website/" />
-<meta property="article:published_time" content="2017-04-09T10:58:08-04:00" />
-<meta property="article:modified_time" content="2017-04-09T10:58:08-04:00" />
+<meta property="article:published_time" content="2021-01-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-16T00:00:00+00:00" />
 <meta itemprop="name" content="How to Build this Website">
 <meta itemprop="description" content="How to create a personal website by building with Hugo and hosting on Github pages with a custom domain">
-<meta itemprop="datePublished" content="2017-04-09T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2017-04-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="381">
+<meta itemprop="datePublished" content="2021-01-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-01-16T00:00:00+00:00" />
+<meta itemprop="wordCount" content="483">
 
 
 
@@ -201,52 +203,129 @@
       <h1 class="f1 athelas mt3 mb1">How to Build this Website</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2017-04-09T10:58:08-04:00">April 9, 2017</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-01-16T00:00:00Z">January 16, 2021</time>
 
       
       
+        <span class="f6 mv4 dib tracked"> - 3 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 483 words</span>
+      
     </header>
-    <div class="nested-copy-line-height lh-copy garamond bg-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ol>
-<li>Install Go: golang.org/doc/install, unpack, export to PATH, and check go version</li>
-<li>Install Hugo: https://gohugo.io/getting-started/installing/#source</li>
-<li>Export all required paths to PATH by export PATH=$PATH:&lt;new_path&gt;, /snap/bin, /snap/bin/hugo, /usr/local/go_install/go/bin</li>
-<li>Choose a theme from https://themes.gohugo.io/, check tags to filter by requirements</li>
-<li>Buy a domain from Google: https://domains.google/</li>
-<li>Follow instructions on Hugo quickstart page: https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site</li>
-<li>Copy config.toml from exampleSite (example site under themes -&gt; ananke -&gt; exampleSite) to quickstart </li>
-<li>Copy the contents of the entire layouts folder from exampleSite to quickstart</li>
-<li>Add sections manually by creating new folders (with exampleSite as reference). You can customize config.toml and use hugo server -D to see a local version of the site and keep iterating. You might have to terminate this process in the terminal (Ctrl+C) and rerun this command to refresh changes but most occur instantly!</li>
-<li>Customize menu order for sections by modifying config.toml and modifying weights according to this - https://github.com/theNewDynamic/gohugo-theme-ananke/issues/89, https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menu</li>
-<li>Customize menu order for individual pages by adding the weight parameter in index.md file</li>
-<li>Render website in public folder: cd quickstart and then hugo</li>
-<li>Create a github.io page: create a new repo called <!-- raw HTML omitted -->.github.io
-14. Add contents of rendered website to this github repo:cd public
+    <div class="nested-copy-line-height lh-copy georgia bg-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There are many options out there to build and host a website with a custom domain. The steps listed below are how I created this website by building with Hugo and hosting on Github pages with a custom domain from Google.</p>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>
+<p>Install <a href="golang.org/doc/install">Go</a>. Follow the instructions on the page to unpack, export to PATH, and check the go version to ensure it&rsquo;s been installed correctly.</p>
+</li>
+<li>
+<p>Install <a href="https://gohugo.io/getting-started/installing/#source">Hugo</a>. I chose to install from source.</p>
+</li>
+<li>
+<p>Export all required paths to PATH.</p>
+</li>
+</ol>
+<pre><code>export PATH=$PATH:/snap/bin
+export PATH=$PATH:/snap/bin/hugo
+export PATH=$PATH:/usr/local/go_install/go/bin
+
+</code></pre><ol start="4">
+<li>
+<p>Choose a <a href="https://themes.gohugo.io/">theme</a> to your liking. You can check the tags to filter by your requirements.</p>
+</li>
+<li>
+<p><a href="https://domains.google/">Buy a domain</a> from Google.</p>
+</li>
+<li>
+<p>Follow instructions on the <a href="https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site">Hugo quickstart page</a>. </p>
+</li>
+<li>
+<p>Copy config.toml from exampleSite (themes -&gt; ananke -&gt; exampleSite) to quickstart </p>
+</li>
+<li>
+<p>Copy the contents of the entire layouts folder from exampleSite to quickstart</p>
+</li>
+<li>
+<p>Add sections manually by creating new folders (with exampleSite as reference). You can customize config.toml.</p>
+</li>
+</ol>
+<pre><code>hugo server -D
+</code></pre><p>This allows you to see a local version of the site and keep iterating before publishing changes. Sometimes, you might have to terminate this process in the terminal (Ctrl+C) and rerun this command to refresh changes but most changes are instantly visible.</p>
+<ol start="10">
+<li>
+<p><a href="https://github.com/theNewDynamic/gohugo-theme-ananke/issues/89">Customize menu order</a> for sections by modifying config.toml and modifying weights. <a href="https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menu">Here&rsquo;s</a> an example.</p>
+</li>
+<li>
+<p>Customize menu order for individual pages by adding the weight parameter in index.md file.</p>
+</li>
+<li>
+<p>Render website in public folder.</p>
+</li>
+</ol>
+<pre><code>cd quickstart
+hugo
+</code></pre><ol start="13">
+<li>
+<p>Create a github.io page: create a new repo called <!-- raw HTML omitted -->.github.io</p>
+</li>
+<li>
+<p>Add contents of rendered website to this github repo:</p>
+</li>
+</ol>
+<pre><code>cd public
 git init
 git add .
-git remote add origin <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a>
+git remote add origin https://github.com/username/username.github.io.git
 git commit -m “first commit”
-git push origin masterThis can also be written in a script deploy.sh: https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script</li>
-<li><!-- raw HTML omitted -->.github.io is now published!</li>
-<li>Now add the custom domain by modifying Settings on the github repo: https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site</li>
-<li>add a CNAME record to Google Domains to link the custom domain to the github.io page: https://support.google.com/domains/answer/9211383?hl=en. To configure an &lsquo;apex domain,&rsquo; also follow the steps to create records under A with your DNS provider. Example with screenshots: https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a. Also refer &lsquo;Configuring apex domain&rsquo; here: https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site</li>
-<li>To verify the process: see Section 6 pf https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site</li>
-<li>Troubleshooting custom domains - https://docs.github.com/en/github/working-with-github-pages/troubleshooting-custom-domains-and-github-pages#cname-errors</li>
-<li>Enforcing HTTPS - https://docs.github.com/en/github/working-with-github-pages/securing-your-github-pages-site-with-https</li>
-<li>Making content updates: Step 6 here https://www.tomasbeuzen.com/post/making-a-website-with-hugo/#6 </li>
-<li>Note - to push local changes on top of changes made directly to the github repo, use: git pull &ndash;rebase</li>
+git push origin master
+</code></pre><p>You could also put this in a <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script">script</a>. </p>
+<ol start="15">
+<li>
+<p>Congratulations! <!-- raw HTML omitted -->.github.io is now published!</p>
+</li>
+<li>
+<p>Now <a href="https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">add the custom domain</a> by modifying Settings on the github repo.</p>
+</li>
+<li>
+<p><a href="https://support.google.com/domains/answer/9211383?hl=en">Add a CNAME record</a> to Google Domains to link the custom domain to the github.io page. Then, <a href="https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">configure an &lsquo;apex domain,'</a> by creating records under A with your DNS provider. <a href="https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a">Here&rsquo;s an example</a> with screenshots.</p>
+</li>
+<li>
+<p>To verify that your Github page redirects to your custom domain, see <a href="https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">Section 6</a>.</p>
+</li>
+<li>
+<p><a href="https://docs.github.com/en/github/working-with-github-pages/troubleshooting-custom-domains-and-github-pages#cname-errors">Here&rsquo;s a resource</a> for troubleshooting custom domains.</p>
+</li>
+<li>
+<p>You can also <a href="https://docs.github.com/en/github/working-with-github-pages/securing-your-github-pages-site-with-https">enforce HTTPS</a>.</p>
+</li>
+<li>
+<p>If you make any changes locally and you want to update them to your published site, just go through the following steps:</p>
+</li>
 </ol>
-<p>Specifics about content and formatting:</p>
-<ol>
-<li>config.toml allows you to set pagination ie number of featured previews
-2.  Customize fonts: https://themes.gohugo.io/gohugo-theme-ananke/#update-font-or-body-classes</li>
-<li>Add images to static-&gt;images folder</li>
-<li>Set absolute URLs for social media icons by directly substituting the href parameter (otherwise they are relative to baseURL) in layouts-&gt;partials-&gt;social-follow.html: https://discourse.gohugo.io/t/how-can-i-redirect-to-an-external-link-on-click-of-header-of-any-blog/9886/5</li>
+<pre><code>cd quickstart
+hugo
+cd public
+git add .
+git commit -m &quot;some changes&quot;
+git push 		# push all changes to the remote
+</code></pre><ol start="22">
+<li>Note - to push local changes on top of changes made directly to the github repo, use git pull &ndash;rebase</li>
 </ol>
-<p>Potentially useful references:
-<a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/">https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/</a>
-<a href="https://discourse.gohugo.io/t/hugo-101-slowstart-for-beginners/18383">https://discourse.gohugo.io/t/hugo-101-slowstart-for-beginners/18383</a>
-<a href="https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/">https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/</a>
-<a href="https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7">https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7</a></p>
+<h3 id="specifics-about-content-and-formatting">Specifics about Content and Formatting</h3>
+<ul>
+<li>config.toml allows you to set pagination ie number of featured previews.</li>
+<li><a href="https://themes.gohugo.io/gohugo-theme-ananke/#update-font-or-body-classes">Customize fonts</a>.</li>
+<li>Add images to static -&gt; images folder</li>
+<li>Set <a href="https://discourse.gohugo.io/t/how-can-i-redirect-to-an-external-link-on-click-of-header-of-any-blog/9886/5">absolute URLs for social media icons</a> by directly substituting the href parameter (otherwise they are relative to baseURL) in layouts-&gt;partials-&gt;social-follow.html</li>
+<li>Changing <a href="https://github.com/theNewDynamic/gohugo-theme-ananke/issues/75">text colour</a>.</li>
+<li>A handy <a href="https://www.markdownguide.org/basic-syntax/">Markdown guide</a>.</li>
+</ul>
+<h3 id="other-useful-references">Other Useful References</h3>
+<ul>
+<li><a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/">https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/</a></li>
+<li><a href="https://discourse.gohugo.io/t/hugo-101-slowstart-for-beginners/18383">https://discourse.gohugo.io/t/hugo-101-slowstart-for-beginners/18383</a></li>
+<li><a href="https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/">https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/</a></li>
+<li><a href="https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7">https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7</a></li>
+</ul>
 <ul class="pa0">
   
    <li class="list">

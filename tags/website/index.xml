@@ -6,14 +6,16 @@
     <description>Recent content in website on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://veenavijai.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://veenavijai.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build this Website</title>
       <link>https://veenavijai.com/blog/website/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://veenavijai.com/blog/website/</guid>
-      <description>Install Go: golang.org/doc/install, unpack, export to PATH, and check go version Install Hugo: https://gohugo.io/getting-started/installing/#source Export all required paths to PATH by export PATH=$PATH:&amp;lt;new_path&amp;gt;, /snap/bin, /snap/bin/hugo, /usr/local/go_install/go/bin Choose a theme from https://themes.gohugo.io/, check tags to filter by requirements Buy a domain from Google: https://domains.google/ Follow instructions on Hugo quickstart page: https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site Copy config.toml from exampleSite (example site under themes -&amp;gt; ananke -&amp;gt; exampleSite) to quickstart  Copy the contents of the entire layouts folder from exampleSite to quickstart Add sections manually by creating new folders (with exampleSite as reference).</description>
+      <description>There are many options out there to build and host a website with a custom domain. The steps listed below are how I created this website by building with Hugo and hosting on Github pages with a custom domain from Google.
+Instructions   Install Go. Follow the instructions on the page to unpack, export to PATH, and check the go version to ensure it&amp;rsquo;s been installed correctly.
+  Install Hugo.</description>
     </item>
     
   </channel>
