@@ -39,7 +39,7 @@
 <meta itemprop="description" content="How to create a personal website by building with Hugo and hosting on Github pages with a custom domain">
 <meta itemprop="datePublished" content="2021-01-16T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-01-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="487">
+<meta itemprop="wordCount" content="494">
 
 
 
@@ -51,7 +51,7 @@
 	
   </head>
 
-  <body class="ma0 garamond bg-white">
+  <body class="ma0 helvetica bg-white">
 
     
    
@@ -79,26 +79,20 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/work/" title="Work page">
+            <a class="hover-white no-underline white-90" href="/work" title="Work page">
               Work
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+            <a class="hover-white no-underline white-90" href="/about" title="About page">
               About
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+            <a class="hover-white no-underline white-90" href="/blog" title="Blog page">
               Blog
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/recent/" title="Recent page">
-              Recent
             </a>
           </li>
           
@@ -208,10 +202,10 @@
       
       
         <span class="f6 mv4 dib tracked"> - 3 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 487 words</span>
+        <span class="f6 mv4 dib tracked"> - 494 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy georgia bg-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There are many options out there to build and host a website with a custom domain. The steps listed below are how I created this website by building with Hugo and hosting on Github pages with a custom domain from Google.</p>
+    <div class="nested-copy-line-height lh-copy helvetica bg-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There are many options out there to build and host a website with a custom domain. The steps listed below are how I created this website by building with Hugo and hosting on Github pages with a custom domain from Google.</p>
 <h3 id="instructions">Instructions</h3>
 <ol>
 <li>
@@ -265,7 +259,7 @@ export PATH=$PATH:/usr/local/go_install/go/bin
 hugo
 </code></pre><ol start="13">
 <li>
-<p>Create a github.io page: create a new repo called <!-- raw HTML omitted -->.github.io</p>
+<p>Create a github.io page: create a new repo called username.github.io</p>
 </li>
 <li>
 <p>Add contents of rendered website to this github repo:</p>
@@ -280,7 +274,7 @@ git push origin master
 </code></pre><p>You could also put this in a <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script">script</a>. </p>
 <ol start="15">
 <li>
-<p>Congratulations! <!-- raw HTML omitted -->.github.io is now published!</p>
+<p>Congratulations! username.github.io is now published!</p>
 </li>
 <li>
 <p>Now <a href="https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">add the custom domain</a> by modifying Settings on the github repo.</p>
@@ -308,16 +302,17 @@ git add .
 git commit -m &quot;some changes&quot;
 git push 		# push all changes to the remote
 </code></pre><ol start="22">
-<li>Note - to push local changes on top of changes made to remote, use git pull &ndash;rebase after the commit. <a href="https://medium.com/@DGabeau/git-pull-rebase-vs-git-pull-c2b352fe53aa">Here&rsquo;s</a> a good guide.</li>
+<li>Note: to push local changes on top of changes made to remote, use git pull &ndash;rebase after the commit. <a href="https://medium.com/@DGabeau/git-pull-rebase-vs-git-pull-c2b352fe53aa">Here&rsquo;s</a> a good guide.</li>
 </ol>
 <h3 id="specifics-about-content-and-formatting">Specifics about Content and Formatting</h3>
 <ul>
-<li>config.toml allows you to set pagination ie number of featured previews.</li>
+<li>config.toml allows you to set pagination ie number of featured previews</li>
 <li><a href="https://themes.gohugo.io/gohugo-theme-ananke/#update-font-or-body-classes">Customize fonts</a>.</li>
 <li>Add images to static -&gt; images folder</li>
 <li>Set <a href="https://discourse.gohugo.io/t/how-can-i-redirect-to-an-external-link-on-click-of-header-of-any-blog/9886/5">absolute URLs for social media icons</a> by directly substituting the href parameter (otherwise they are relative to baseURL) in layouts-&gt;partials-&gt;social-follow.html</li>
-<li>Changing <a href="https://github.com/theNewDynamic/gohugo-theme-ananke/issues/75">text colour</a>.</li>
-<li>A handy <a href="https://www.markdownguide.org/basic-syntax/">Markdown guide</a>.</li>
+<li>Changing <a href="https://github.com/theNewDynamic/gohugo-theme-ananke/issues/75">text colour</a></li>
+<li>A handy <a href="https://www.markdownguide.org/basic-syntax/">Markdown guide</a></li>
+<li>Give a static file its <a href="https://discourse.gohugo.io/t/give-a-static-file-its-own-page-link/17434">own page link</a></li>
 </ul>
 <h3 id="other-useful-references">Other Useful References</h3>
 <ul>

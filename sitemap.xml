@@ -71,28 +71,7 @@
   </url>
   
   <url>
-    <loc>https://veenavijai.com/blog/amazon_lab126/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://veenavijai.com/tags/audio/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://veenavijai.com/tags/bioacoustics/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://veenavijai.com/recent/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -120,7 +99,7 @@
   </url>
   
   <url>
-    <loc>https://veenavijai.com/work/medical-intelligence-and-language-engineering-lab/</loc>
+    <loc>https://veenavijai.com/work/language-identification/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -162,14 +141,14 @@
   </url>
   
   <url>
-    <loc>https://veenavijai.com/blog/</loc>
-    <lastmod>2017-03-02T12:00:00-05:00</lastmod>
+    <loc>https://veenavijai.com/work/speech-segmentation/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://veenavijai.com/recent/</loc>
+    <loc>https://veenavijai.com/blog/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
